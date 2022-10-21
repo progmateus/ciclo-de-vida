@@ -25,7 +25,7 @@ async function mainLoop(){
         return mainLoop();
 
     } catch (error) {
-        console.log("*error*", error);
+        console.log("error", error);
         return mainLoop();
     }
 }
